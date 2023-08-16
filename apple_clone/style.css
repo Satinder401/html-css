@@ -1,0 +1,148 @@
+body {
+  max-width: auto;
+  margin: 0 auto;
+  font-family: "Noto Sans", sans-serif;
+  color: #1d1d1f;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white-color {
+  color: white;
+}
+
+.blue-link {
+  color: #2997ff;
+  padding: 20px 20px;
+  font-size: 19px;
+  font-weight: 400px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+h2.headline {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3.subhead {
+  font-size: 24px;
+  font-weight: 190;
+}
+
+h4.headline {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h5.subhead {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 3px;
+}
+
+h3.subheadfoot {
+  margin: 0 20px 10px 0;
+  font-size: 12px;
+  font-weight: 600px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 44px;
+  background: rgba(245, 245, 245, 0.8);
+  backdrop-filter: saturate(10%) blur(200px);
+}
+.main-menu {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-left: 200px;
+}
+.main-menu-list {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+ul.main-menu-list a {
+  font-size: 12px;
+  font-weight: 320;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.discount-section {
+  height: 10px;
+  margin: 22px;
+  width: 100%;
+  margin-top: 35px;
+}
+.discount h5 {
+  font-weight: 400;
+  margin-left: 280px;
+}
+.discount a {
+  font-weight: 350;
+  font-size: 12px;
+  margin-left: -8px;
+}
+
+.section-1 {
+  text-align: center;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.panel {
+  padding: 50px;
+  margin: 0px auto;
+  height: 617px;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.iphone14-pro {
+  background: url(https://www.apple.com/au/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+
+.iphone14 {
+  background: url(https://www.apple.com/au/home/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_medium_2x.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
+.macbook {
+  background: url(https://www.apple.com/v/home/bd/images/heroes/macbook-air-15/hero_macbook_air_15_midnight__ct0pgwizvree_medium_2x.jpg)
+    no-repeat center center;
+  background-size: cover;
+}
