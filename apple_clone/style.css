@@ -5,6 +5,14 @@ body {
   color: #1d1d1f;
 }
 
+.svg-chevron-margin {
+  margin-bottom: -3px;
+}
+
+.h5-margin-adjust {
+  margin-bottom: 50px;
+}
+
 .flex {
   display: flex;
 }
@@ -37,6 +45,22 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
+.blue-link-section2 {
+  color: #2997ff;
+  padding: 20px 20px;
+  font-size: 17px;
+  font-weight: 400px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.grey-link {
+  color: #424245;
+  text-decoration: underline;
+}
+.grey-link-footer-contacts:hover {
+  text-decoration: underline;
+}
 .underline-hover:hover {
   text-decoration: underline;
 }
@@ -55,13 +79,13 @@ h3.subhead {
 h4.headline {
   font-size: 32px;
   font-weight: 600;
-  margin: 0;
+  margin: 3px;
 }
 
 h5.subhead {
   font-size: 19px;
   font-weight: 400;
-  margin: 3px;
+  margin-top: 3px;
 }
 
 h3.subheadfoot {
@@ -70,13 +94,40 @@ h3.subheadfoot {
   font-weight: 600px;
 }
 
+.font-footer {
+  font-size: 12px;
+  font-weight: 400;
+  line-heith: 16px;
+}
+
+.footer-global {
+  --footer-background: #f5f5f7;
+  --footer-border-color: #d2d2d7;
+  --footer-text-color: #6e6e73;
+  --footer-link-color: #424245;
+}
+
+.footnote {
+  color: inherit;
+  font-size: inherit;
+}
+
+.blue-link-foot {
+  color: #06c;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .navigation {
   position: fixed;
   top: 0;
-  width: 100%;
   height: 44px;
-  background: rgba(245, 245, 245, 0.8);
-  backdrop-filter: saturate(10%) blur(200px);
+  backdrop-filter: saturate(180%) blur(20px);
+  width: 100%;
+  background: rgba(251, 251, 253, 0.8);
+  justify-content: center;
+  z-index: 99;
 }
 .main-menu {
   width: 100%;
@@ -121,14 +172,13 @@ ul.main-menu-list a {
   position: relative;
 }
 .panel {
-  padding: 50px;
-  margin: 0px auto;
+  padding: 20px;
   height: 617px;
   background-size: cover;
   background-size: 100% 100%;
   height: 100vh;
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 8px;
 }
 .iphone14-pro {
   background: url(https://www.apple.com/au/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg)
@@ -145,4 +195,175 @@ ul.main-menu-list a {
   background: url(https://www.apple.com/v/home/bd/images/heroes/macbook-air-15/hero_macbook_air_15_midnight__ct0pgwizvree_medium_2x.jpg)
     no-repeat center center;
   background-size: cover;
+}
+
+.section-2 {
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+.section2-column {
+  margin-top: 80px;
+}
+.margin-a-links {
+  margin-bottom: -10px;
+}
+.trade-in {
+  background: url(https://www.apple.com/v/home/bd/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg)
+    center center;
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.tradeIn-logo {
+  height: 27px;
+  background-size: 127px 27px;
+}
+.apple-watch {
+  background: url(https://www.apple.com/au/home/images/promos/apple-watch-series-8/promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium_2x.jpg)
+    center center;
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.series8-logo {
+  height: 42px;
+  background-size: 115px 44px;
+}
+.ipad-pro {
+  background: url(https://www.apple.com/au/home/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_medium_2x.jpg)
+    center center;
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.m2-logo {
+  width: 35px;
+  height: 35px;
+  background-size: 35px;
+  margin-bottom: -13px;
+}
+.homepod {
+  background: url(https://www.apple.com/v/home/bd/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg)
+    center center;
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.homepod h4 {
+  margin-bottom: 20px;
+}
+.apple-news {
+  background: url(https://www.apple.com/au/home/images/promos/apple-news-womens-world-cup/promo_apple_news_womens_world_cup__f72j3grkhguq_medium_2x.jpg);
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.apple-news-logo {
+  height: 31px;
+  background-size: 99px 31px;
+}
+.airpods-pro {
+  background: url(https://www.apple.com/v/home/bd/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_medium_2x.jpg);
+  background-size: cover;
+  width: 516px;
+  height: 490px;
+}
+.section2-items {
+  width: calc(50% - 10px);
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 600px;
+}
+
+.footer-global {
+  background: #f5f5f7;
+}
+.footer-box {
+  max-width: 60%;
+  padding: 0;
+  margin: auto;
+}
+.info-section {
+  border-bottom: 1px solid var(--footer-border-color);
+  padding: 10px 0 10px;
+}
+.info-list {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--footer-text-color);
+}
+ul.info-list li {
+  margin-bottom: 7px;
+}
+.footer-links {
+  width: 100%;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  padding: 26px 0;
+}
+
+.footer-list a {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--footer-link-color);
+}
+
+ul.footer-list {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+ul.footer-list li {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-section-contacts {
+  border-bottom: 1px solid var(--footer-border-color);
+  padding: 10px 0 10px;
+  color: var(--footer-text-color);
+}
+
+.footer-section-bottom {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 10px 0 10px;
+}
+
+.footer-section-geo {
+  white-space: nowrap;
+}
+
+.footer-section-geo a {
+  color: var(--footer-link-color);
+}
+
+.footer-section-navigation {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-section-rights {
+  margin-right: 30px;
+  float: left;
+  color: var(--footer-text-color);
+}
+
+.footer-menu a {
+  color: var(--footer-link-color);
+}
+ul.footer-menu li {
+  margin: 0 10px;
+}
+.footer-section-contacts {
+  margin-top: -28px;
 }
