@@ -141,6 +141,7 @@ h3.subheadfoot {
   align-items: center;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 ul.main-menu-list a {
   font-size: 12px;
@@ -200,7 +201,7 @@ ul.main-menu-list a {
 .section-2 {
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-bottom: 6px;
 }
 .section2-column {

@@ -1,0 +1,100 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.bg-1 {
+  width: 1440px;
+  height: 900px;
+  flex-shrink: 0;
+  background: url(https://i.ibb.co/G9s3YN0/Bg-hero.png) no-repeat center center;
+}
+.nav {
+  width: 1280px;
+  height: 99px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+}
+.ornament {
+  text-align: center;
+  justify-content: center;
+}
+.bg1-logo {
+  width: 140px;
+  height: 40px;
+  line-height: 100%;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-menu-list1 a {
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-menu-list2 a {
+  font-family: Effra;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  display: inline-flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.register-button {
+  border-radius: 40px;
+  background: #fff;
+}
+.bg1-largefonts {
+  text-align: center;
+font-family: Effra;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 112%;
+}
+.bg1-smallfonts {
+  color: #8B8B8B;
+text-align: center;
+font-family: Effra;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.bg1-getstarted-button {
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  border-radius: 40px;
+background: #A8FF35;
+}
