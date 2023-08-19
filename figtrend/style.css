@@ -74,27 +74,93 @@ ul {
 }
 .bg1-largefonts {
   text-align: center;
-font-family: Effra;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 112%;
+  font-family: Effra;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112%;
 }
 .bg1-smallfonts {
-  color: #8B8B8B;
-text-align: center;
-font-family: Effra;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Effra;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 .bg1-getstarted-button {
   display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   border-radius: 40px;
-background: #A8FF35;
+  background: #a8ff35;
+}
+
+.bg-2 {
+  width: 1440px;
+  height: 742px;
+  flex-shrink: 0;
+  background: #a8ff35;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bg2-largefonts {
+  text-align: center;
+  font-family: Effra;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bg2-rectangle1 {
+  width: 502px;
+  height: 202px;
+  /*   flex-shrink: 0; */
+  border-radius: 16px;
+  background: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+}
+.bg2-rectangle2 {
+  width: 341.226px;
+  height: 82px;
+  background: #030303;
+  align-items: center;
+  justify-content: center;
+}
+.bg2-rectangle2-logo {
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  margin: 10px;
+}
+.cross-svg {
+  width: 10px;
+  height: 10px;
+  margin-top: -3px;
+}
+.bg2-rectangle2-text {
+  position: relative;
+}
+.fader {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
+}
+.bg2-smallfonts {
+  text-align: center;
+  font-family: Effra;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
