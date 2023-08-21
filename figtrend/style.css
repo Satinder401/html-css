@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -16,6 +20,10 @@ ul {
 
 .black-text {
   color: black;
+}
+
+.grey-text {
+  color: #adadad;
 }
 
 .bg-1 {
@@ -37,8 +45,8 @@ ul {
   justify-content: center;
 }
 .bg1-logo {
-  width: 140px;
-  height: 40px;
+  width: 130px;
+  height: 30px;
   line-height: 100%;
   display: inline-flex;
   padding: 12px 32px;
@@ -163,4 +171,202 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+.bg-3 {
+  width: 1440px;
+  height: 1350px;
+  background: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bg3-info {
+  font-family: Effra;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.partners-logo {
+  justify-content: space-between;
+}
+.partners-logo-companies {
+  width: 266px;
+  height: 120px;
+  border-radius: 8px;
+  background: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.partners-logo-names1 {
+  width: 190px;
+  height: 40px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names2 {
+  width: 156px;
+  height: 40px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names3 {
+  width: 146px;
+  height: 44px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names4 {
+  width: 174px;
+  height: 24px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names5 {
+  width: 112px;
+  height: 44px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names6 {
+  width: 162px;
+  height: 36px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names7 {
+  width: 148px;
+  height: 32px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names8 {
+  width: 148px;
+  height: 32px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names9 {
+  width: 182px;
+  height: 40px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names10 {
+  width: 164px;
+  height: 48px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names11 {
+  width: 174px;
+  height: 42px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names12 {
+  width: 160px;
+  height: 28px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names13 {
+  width: 176px;
+  height: 38px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names14 {
+  width: 178px;
+  height: 34px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names15 {
+  width: 162px;
+  height: 40px;
+  background: lightgray 50% / cover no-repeat;
+}
+.partners-logo-names16 {
+  width: 190px;
+  height: 34px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.bg-4 {
+  width: 1440px;
+  height: auto;
+  background: #fafafa;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bg4-info {
+  text-align: center;
+  font-family: Effra;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 80px;
+}
+.bg4-links {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.bg4-links-logo {
+  width: 124px;
+  height: 124px;
+  border-radius: 8px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 14px;
+}
+.bg4-links-logo-tweeter {
+  border-radius: 8px;
+  background: #a8ff35;
+  width: 124px;
+  height: 124px;
+  justify-content: center;
+  align-items: center;
+}
+.bg4-links-logo-image {
+  width: 60px;
+  height: 60px;
+  background: no-repeat;
+}
+.bg4-tweets {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 30px;
+}
+.bg4-tweets1 {
+  width: 800px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: inline-flex;
+}
+.bg4-tweets2 {
+  width: 800px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: inline-flex;
+}
+.bg4-tweets3 {
+  width: 800px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  display: inline-flex;
+}
+.bg4-viewmore-button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: #000;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
