@@ -39,6 +39,7 @@ ul {
   justify-content: center;
   padding: 30px;
   position: relative;
+  align-items: center;
 }
 .ornament {
   text-align: center;
