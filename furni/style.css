@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+}
+
+.white-text {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.black-text {
+  color: black;
+}
+
+.grey-text {
+  color: #adadad;
+}
+
+.page-fonts1 {
+  color: #2f2f2f;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px; /* 120.588% */
+}
+
+.page-fonts2 {
+  color: #6a6a6a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.bg-1 {
+  background: #3b5d50;
+  max-width: 1500px;
+  height: 674px;
+  margin-bottom: 60px;
+}
+.navigation {
+  width: auto;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-font1 {
+  margin-left: 50px;
+}
+.navigation-font {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.couch1-image1 {
+  width: 810px;
+  height: 581.282px;
+  /*     background: lightgray 50% / cover no-repeat; */
+}
+.navigation-menu {
+  margin-right: 50px;
+}
+.navigation-menu1 li {
+  margin: 20px;
+}
+.navigation-menu2 li {
+  margin: 10px;
+}
+.navigation-menu2-svg {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-menu1-links {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+}
+.navigation-menu1-links:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: underline;
+  text-decoration-color: #f9bf29;
+  text-decoration-thickness: 0.2em;
+  text-underline-offset: 8px;
+}
+.bg1-section1 {
+  /*   flex-direction: column; */
+  /*   margin-left: 50px; */
+  justify-content: center;
+  align-items: top;
+  justify-content: space-between;
+}
+.bg1-info {
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 70px;
+}
+.couch1 {
+  float: right;
+}
+.couch1-image-1 {
+  margin-top: -100px;
+}
+.bg1-links {
+  margin-top: -290px;
+}
+.bg1-links1 {
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.bg1-links1 {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background: #f9bf29;
+  justify-content: center;
+  align-items: center;
+}
+.bg1-links2 {
+  width: 132px;
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.29);
+  justify-content: center;
+  align-items: center;
+  /*   margin-left: -60px; */
+}
+.bg-2 {
+  max-width: 1500px;
+  justify-content: space-between;
+  margin-bottom: 160px;
+  align-items: center;
+}
+.bg2-link1 {
+  width: 122px;
+  height: 50px;
+  border-radius: 30px;
+  background: #2f2f2f;
+  justify-content: center;
+  align-items: center;
+}
+.bg2-div1 {
+  margin-left: 60px;
+}
+.bg-2 :last-child {
+  margin-right: 60px;
+}
+.bg2-image1 {
+  width: 189px;
+  height: 261px;
+}
+.bg2-image2 {
+  width: 237px;
+  height: 256px;
+}
+.bg2-image3 {
+  width: 153px;
+  height: 235px;
+}
+.bg2-div {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.bg2-links-h5 {
+  margin-top: -20px;
+}
+.hover-box-link {
+ width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  background: #2F2F2F;
+/*   justify-content: center; */
+  align-items: center;
+  margin-left: 58px;
+  margin-bottom: -28px;
+}
+.hover-box {
+  display: none;
+  position: absolute;
+  width: 296px;
+height: 307px;
+border-radius: 20px;
+background: rgba(53, 115, 110, 0.10);
+/*   top: 30%; */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+/*   z-index: 1;  */
+  transition: top 0.3s ease-in-out;
+}
+.hover-box-svg {
+  width: 14px;
+height: 14px;
+margin-left: 10px;
+}
+.bg2-div:hover .hover-box {
+  display: block;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items : flex-end;
+/*   margin-top: 10px; */
+}
+.bg2-div:hover {
+  margin-top: -80px;
+  transition: top 0.3s ease-in-out;
+}
+.bg-3 {
+  max-width: 1500px;
+  margin-bottom: 100px;
+}
+.bg3-image {
+  width: 514.818px;
+height: 629.104px;
+  border-radius: 10px;
+}
